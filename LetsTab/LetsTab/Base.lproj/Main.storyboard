@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Cx4-kk-ahR">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Second-->
+        <scene sceneID="d4v-QM-YfN">
+            <objects>
+                <viewController id="sxe-g4-Rup" userLabel="Second" customClass="GenericViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C3v-Fb-IIv"/>
+                        <viewControllerLayoutGuide type="bottom" id="wrC-ZJ-e65"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vDh-BL-6zT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Je-4h-9Gs">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="43" y="147" width="315" height="148"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Lr-iu-PDx">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Count">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="495" width="42" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="incrementCountSecond:" destination="sxe-g4-Rup" eventType="touchUpInside" id="gVp-Ht-Reb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="0Je-4h-9Gs"/>
+                                <exclude reference="2Lr-iu-PDx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="0Je-4h-9Gs"/>
+                                <include reference="2Lr-iu-PDx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="2nd Scene" image="Two" id="7hy-dd-Vyu"/>
+                    <connections>
+                        <outlet property="barItem" destination="7hy-dd-Vyu" id="BmO-aN-9b7"/>
+                        <outlet property="outputLabel" destination="0Je-4h-9Gs" id="pHY-4A-KGC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f1c-57-S8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="618"/>
+        </scene>
+        <!--Third-->
+        <scene sceneID="rxT-pd-N3P">
+            <objects>
+                <viewController id="iyn-ga-BX0" userLabel="Third" customClass="GenericViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m0B-ea-WEp"/>
+                        <viewControllerLayoutGuide type="bottom" id="40U-ku-Nm7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e5d-Lz-ETJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vha-RT-QQF">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="43" y="140" width="315" height="148"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sf6-Cg-rth">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Count">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="473" width="42" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="incrementCountThird:" destination="iyn-ga-BX0" eventType="touchUpInside" id="TLD-OW-ta6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Vha-RT-QQF"/>
+                                <exclude reference="sf6-Cg-rth"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Vha-RT-QQF"/>
+                                <include reference="sf6-Cg-rth"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="3rd Scene" image="Three" id="sYK-Bk-8eV"/>
+                    <connections>
+                        <outlet property="barItem" destination="sYK-Bk-8eV" id="ANc-5f-mbk"/>
+                        <outlet property="outputLabel" destination="Vha-RT-QQF" id="RIX-RR-t1a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="INH-4P-mCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="1418"/>
+        </scene>
+        <!--First-->
+        <scene sceneID="gLU-ai-Oft">
+            <objects>
+                <viewController id="fLm-xA-PF4" userLabel="First" customClass="GenericViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YAs-EC-qqb"/>
+                        <viewControllerLayoutGuide type="bottom" id="XxP-pp-w39"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bQ4-e3-bPv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHp-dD-Y6B">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="43" y="113" width="315" height="148"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGe-NF-50X">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Count">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="480" width="42" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="incrementCountFirst:" destination="fLm-xA-PF4" eventType="touchUpInside" id="Det-gv-490"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="zHp-dD-Y6B"/>
+                                <exclude reference="uGe-NF-50X"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="zHp-dD-Y6B"/>
+                                <include reference="uGe-NF-50X"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="1st Scene" image="One" id="sXc-3T-9XM"/>
+                    <connections>
+                        <outlet property="barItem" destination="sXc-3T-9XM" id="IrN-de-fA2"/>
+                        <outlet property="outputLabel" destination="zHp-dD-Y6B" id="WZQ-U0-5Pn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gzn-kG-uyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="-158"/>
+        </scene>
+        <!--Counting Tab Bar Controller-->
+        <scene sceneID="gBL-XU-n1y">
+            <objects>
+                <tabBarController id="Cx4-kk-ahR" customClass="CountingTabBarController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="rAZ-iF-EkU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fLm-xA-PF4" kind="relationship" relationship="viewControllers" id="U4V-iC-WtT"/>
+                        <segue destination="sxe-g4-Rup" kind="relationship" relationship="viewControllers" id="pOZ-YH-s84"/>
+                        <segue destination="iyn-ga-BX0" kind="relationship" relationship="viewControllers" id="4CR-1t-PkQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8FY-g2-2Sn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319.5" y="537"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="One" width="32" height="32"/>
+        <image name="Three" width="32" height="32"/>
+        <image name="Two" width="32" height="32"/>
+    </resources>
+</document>

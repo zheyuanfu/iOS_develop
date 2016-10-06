@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7E5E5C1D1E63480009BBDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7E5E5B1D1E63480009BBDA /* CoreGraphics.framework */; };
+		DB7E5E5E1D1E63570009BBDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7E5E5D1D1E63570009BBDA /* UIKit.framework */; };
+		DB7E5E601D1E635C0009BBDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7E5E5F1D1E635C0009BBDA /* Foundation.framework */; };
+		DBFC881E1D1E1BFF00EACCE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC881D1D1E1BFF00EACCE6 /* main.m */; };
+		DBFC88211D1E1BFF00EACCE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC88201D1E1BFF00EACCE6 /* AppDelegate.m */; };
+		DBFC88241D1E1BFF00EACCE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC88231D1E1BFF00EACCE6 /* ViewController.m */; };
+		DBFC88271D1E1BFF00EACCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFC88251D1E1BFF00EACCE6 /* Main.storyboard */; };
+		DBFC88291D1E1BFF00EACCE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFC88281D1E1BFF00EACCE6 /* Images.xcassets */; };
+		DBFC882C1D1E1BFF00EACCE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFC882A1D1E1BFF00EACCE6 /* LaunchScreen.xib */; };
+		DBFC88381D1E1BFF00EACCE6 /* QuartzFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC88371D1E1BFF00EACCE6 /* QuartzFunTests.m */; };
+		DBFC88431D1E1CB600EACCE6 /* QuartzFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC88421D1E1CB600EACCE6 /* QuartzFunView.m */; };
+		DBFC88501D1E4D3800EACCE6 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC884F1D1E4D3800EACCE6 /* UIColor+Random.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBFC88321D1E1BFF00EACCE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBFC88101D1E1BFF00EACCE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBFC88171D1E1BFF00EACCE6;
+			remoteInfo = QuartzFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB7E5E5B1D1E63480009BBDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB7E5E5D1D1E63570009BBDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB7E5E5F1D1E635C0009BBDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBFC88181D1E1BFF00EACCE6 /* QuartzFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFC881C1D1E1BFF00EACCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFC881D1D1E1BFF00EACCE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBFC881F1D1E1BFF00EACCE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBFC88201D1E1BFF00EACCE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBFC88221D1E1BFF00EACCE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBFC88231D1E1BFF00EACCE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBFC88261D1E1BFF00EACCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBFC88281D1E1BFF00EACCE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBFC882B1D1E1BFF00EACCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DBFC88311D1E1BFF00EACCE6 /* QuartzFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFC88361D1E1BFF00EACCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFC88371D1E1BFF00EACCE6 /* QuartzFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzFunTests.m; sourceTree = "<group>"; };
+		DBFC88411D1E1CB600EACCE6 /* QuartzFunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzFunView.h; sourceTree = "<group>"; };
+		DBFC88421D1E1CB600EACCE6 /* QuartzFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzFunView.m; sourceTree = "<group>"; };
+		DBFC88441D1E1CCB00EACCE6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DBFC884E1D1E4D3800EACCE6 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		DBFC884F1D1E4D3800EACCE6 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFC88151D1E1BFF00EACCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7E5E601D1E635C0009BBDA /* Foundation.framework in Frameworks */,
+				DB7E5E5E1D1E63570009BBDA /* UIKit.framework in Frameworks */,
+				DB7E5E5C1D1E63480009BBDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFC882E1D1E1BFF00EACCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7E5E5A1D1E63290009BBDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7E5E5F1D1E635C0009BBDA /* Foundation.framework */,
+				DB7E5E5D1D1E63570009BBDA /* UIKit.framework */,
+				DB7E5E5B1D1E63480009BBDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			path = QuartzFun.xcodeproj/../Frameworks;
+			sourceTree = "<group>";
+		};
+		DBFC880F1D1E1BFF00EACCE6 = {
+			isa = PBXGroup;
+			children = (
+				DBFC881A1D1E1BFF00EACCE6 /* QuartzFun */,
+				DB7E5E5A1D1E63290009BBDA /* Frameworks */,
+				DBFC88341D1E1BFF00EACCE6 /* QuartzFunTests */,
+				DBFC88191D1E1BFF00EACCE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBFC88191D1E1BFF00EACCE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC88181D1E1BFF00EACCE6 /* QuartzFun.app */,
+				DBFC88311D1E1BFF00EACCE6 /* QuartzFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBFC881A1D1E1BFF00EACCE6 /* QuartzFun */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC884E1D1E4D3800EACCE6 /* UIColor+Random.h */,
+				DBFC884F1D1E4D3800EACCE6 /* UIColor+Random.m */,
+				DBFC88221D1E1BFF00EACCE6 /* ViewController.h */,
+				DBFC88231D1E1BFF00EACCE6 /* ViewController.m */,
+				DBFC88411D1E1CB600EACCE6 /* QuartzFunView.h */,
+				DBFC88421D1E1CB600EACCE6 /* QuartzFunView.m */,
+				DBFC88441D1E1CCB00EACCE6 /* Constants.h */,
+				DBFC881F1D1E1BFF00EACCE6 /* AppDelegate.h */,
+				DBFC88201D1E1BFF00EACCE6 /* AppDelegate.m */,
+				DBFC88251D1E1BFF00EACCE6 /* Main.storyboard */,
+				DBFC88281D1E1BFF00EACCE6 /* Images.xcassets */,
+				DBFC882A1D1E1BFF00EACCE6 /* LaunchScreen.xib */,
+				DBFC881B1D1E1BFF00EACCE6 /* Supporting Files */,
+			);
+			path = QuartzFun;
+			sourceTree = "<group>";
+		};
+		DBFC881B1D1E1BFF00EACCE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC881C1D1E1BFF00EACCE6 /* Info.plist */,
+				DBFC881D1D1E1BFF00EACCE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBFC88341D1E1BFF00EACCE6 /* QuartzFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC88371D1E1BFF00EACCE6 /* QuartzFunTests.m */,
+				DBFC88351D1E1BFF00EACCE6 /* Supporting Files */,
+			);
+			path = QuartzFunTests;
+			sourceTree = "<group>";
+		};
+		DBFC88351D1E1BFF00EACCE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC88361D1E1BFF00EACCE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBFC88171D1E1BFF00EACCE6 /* QuartzFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFC883B1D1E1BFF00EACCE6 /* Build configuration list for PBXNativeTarget "QuartzFun" */;
+			buildPhases = (
+				DBFC88141D1E1BFF00EACCE6 /* Sources */,
+				DBFC88151D1E1BFF00EACCE6 /* Frameworks */,
+				DBFC88161D1E1BFF00EACCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzFun;
+			productName = QuartzFun;
+			productReference = DBFC88181D1E1BFF00EACCE6 /* QuartzFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBFC88301D1E1BFF00EACCE6 /* QuartzFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFC883E1D1E1BFF00EACCE6 /* Build configuration list for PBXNativeTarget "QuartzFunTests" */;
+			buildPhases = (
+				DBFC882D1D1E1BFF00EACCE6 /* Sources */,
+				DBFC882E1D1E1BFF00EACCE6 /* Frameworks */,
+				DBFC882F1D1E1BFF00EACCE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBFC88331D1E1BFF00EACCE6 /* PBXTargetDependency */,
+			);
+			name = QuartzFunTests;
+			productName = QuartzFunTests;
+			productReference = DBFC88311D1E1BFF00EACCE6 /* QuartzFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBFC88101D1E1BFF00EACCE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ZheyuanFu;
+				TargetAttributes = {
+					DBFC88171D1E1BFF00EACCE6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DBFC88301D1E1BFF00EACCE6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DBFC88171D1E1BFF00EACCE6;
+					};
+				};
+			};
+			buildConfigurationList = DBFC88131D1E1BFF00EACCE6 /* Build configuration list for PBXProject "QuartzFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBFC880F1D1E1BFF00EACCE6;
+			productRefGroup = DBFC88191D1E1BFF00EACCE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBFC88171D1E1BFF00EACCE6 /* QuartzFun */,
+				DBFC88301D1E1BFF00EACCE6 /* QuartzFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBFC88161D1E1BFF00EACCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFC88271D1E1BFF00EACCE6 /* Main.storyboard in Resources */,
+				DBFC882C1D1E1BFF00EACCE6 /* LaunchScreen.xib in Resources */,
+				DBFC88291D1E1BFF00EACCE6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFC882F1D1E1BFF00EACCE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBFC88141D1E1BFF00EACCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFC88501D1E4D3800EACCE6 /* UIColor+Random.m in Sources */,
+				DBFC88241D1E1BFF00EACCE6 /* ViewController.m in Sources */,
+				DBFC88431D1E1CB600EACCE6 /* QuartzFunView.m in Sources */,
+				DBFC88211D1E1BFF00EACCE6 /* AppDelegate.m in Sources */,
+				DBFC881E1D1E1BFF00EACCE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFC882D1D1E1BFF00EACCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFC88381D1E1BFF00EACCE6 /* QuartzFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBFC88331D1E1BFF00EACCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBFC88171D1E1BFF00EACCE6 /* QuartzFun */;
+			targetProxy = DBFC88321D1E1BFF00EACCE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBFC88251D1E1BFF00EACCE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFC88261D1E1BFF00EACCE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBFC882A1D1E1BFF00EACCE6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFC882B1D1E1BFF00EACCE6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBFC88391D1E1BFF00EACCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBFC883A1D1E1BFF00EACCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBFC883C1D1E1BFF00EACCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuartzFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBFC883D1D1E1BFF00EACCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuartzFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBFC883F1D1E1BFF00EACCE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuartzFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzFun.app/QuartzFun";
+			};
+			name = Debug;
+		};
+		DBFC88401D1E1BFF00EACCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuartzFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzFun.app/QuartzFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBFC88131D1E1BFF00EACCE6 /* Build configuration list for PBXProject "QuartzFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFC88391D1E1BFF00EACCE6 /* Debug */,
+				DBFC883A1D1E1BFF00EACCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFC883B1D1E1BFF00EACCE6 /* Build configuration list for PBXNativeTarget "QuartzFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFC883C1D1E1BFF00EACCE6 /* Debug */,
+				DBFC883D1D1E1BFF00EACCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFC883E1D1E1BFF00EACCE6 /* Build configuration list for PBXNativeTarget "QuartzFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFC883F1D1E1BFF00EACCE6 /* Debug */,
+				DBFC88401D1E1BFF00EACCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBFC88101D1E1BFF00EACCE6 /* Project object */;
+}
